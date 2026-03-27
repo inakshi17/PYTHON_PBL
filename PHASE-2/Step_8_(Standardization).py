@@ -1,6 +1,5 @@
 print("\n----------------------------- Feature Standardization -----------------------------\n")
 
-
 selected_cols = important_features.index.drop('HeartDisease')
 X = df_clean[selected_cols]
 y = df_clean['HeartDisease']
